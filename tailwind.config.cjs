@@ -5,6 +5,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: '350px',
+      md: '500px',
+    },
     extend: {
       colors: {
         'text-white': 'hsl(0, 0%, 91%)',

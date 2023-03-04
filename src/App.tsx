@@ -1,9 +1,9 @@
 import { Header } from '@layout/Header';
-import { About } from './components/pannels/About';
+import { About } from '@pannels';
 
 function App() {
   return (
-    <div className='bg-hero-image-sm w-screen bg-no-repeat bg-left-bottom'>
+    <div className='sm:bg-hero-image-sm md:bg-hero-image w-screen sm:h-[844px] md:h-[1024px] bg-no-repeat bg-left-bottom'>
       <Header />
 
       <About />
